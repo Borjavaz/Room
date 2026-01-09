@@ -55,11 +55,6 @@ interface RecordDao {
     suspend fun deleteAll()
 }
 ```
-## Consulta
-
-```kotlin
-SELECT * FROM record_table ORDER BY ronda DESC LIMIT 1
-```
 
 ---
 
